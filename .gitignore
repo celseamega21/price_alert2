@@ -1,0 +1,30 @@
+# virtual env
+venv/
+.env
+
+# python
+*.pyc
+*.pyo
+__pychache__/
+
+# django
+db.sqlite3
+**/migrations/
+*.log
+
+# celery
+celerybeat-schedule
+celerybeat.pid
+celery.log
+
+# project
+scraper/__pycache__/
+scraper/*.pyc
+scraper/*.pyo
+tasks/__pycache__/
+tasks/*.pyc
+tasks/*.pyo
+product/selector.py
+
+# IDE
+.vscode/
